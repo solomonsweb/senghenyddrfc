@@ -1,0 +1,77 @@
+/* Ensure full height layout */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-color: #100074; /* Deep blue background */
+    color: #ffffff; /* Ensuring text is readable */
+}
+
+/* Allow the main content to expand */
+main {
+    flex: 1;
+    padding: 20px;
+    background-color: #100074;
+}
+
+header {
+    background-color: #100074;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 5px;
+}
+
+h1, h2 {
+    font-family: 'Arial', sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Footer stays at the bottom */
+footer {
+    background-color: #100074;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+}
